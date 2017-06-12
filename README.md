@@ -20,9 +20,12 @@ This is Sonoff basic plugin for [Homebridge](https://github.com/nfarina/homebrid
 | <img src="https://user-images.githubusercontent.com/73107/26965577-f82c6c92-4d28-11e7-9034-7b16dbed437e.jpg" width="120"> | <img src="https://user-images.githubusercontent.com/73107/26964964-6343b290-4d26-11e7-87cf-4a6ac6d0329c.jpg" width="120" align="left"> | <img src="https://user-images.githubusercontent.com/73107/26965633-38c8753e-4d29-11e7-96bd-2fd19ce231f0.jpg" width="120"> |
 | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: |
 |               Sonoff Basic               |            Soldering Iron Pen            |               Header Pins                |
-|                                          |                                          |                                          |
+
 | <img src="https://user-images.githubusercontent.com/73107/26965875-626d8eb4-4d2a-11e7-8c1c-b7040eb16455.jpg" width="120"> | <img src="https://user-images.githubusercontent.com/73107/26965992-e464446c-4d2a-11e7-85a7-249b9a23de29.jpg" width="120"> | <img src="https://user-images.githubusercontent.com/73107/26966105-53444058-4d2b-11e7-91c9-dea76bfd7c6b.png" width="120"> |
+| :--------------------------------------: | :--------------------------------------: | :--------------------------------------: |
 |       Tin Lead Rosin Core (<0.5mm)       |   Female-to-female Dupont Wire Cables    |            TTL to USB Adaptor            |
+
+
 
 **Notes:** You can easily get these hardware from eBay at cheap price.
 
