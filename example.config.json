@@ -1,0 +1,16 @@
+{
+	"bridge": {
+		"name": "Homebridge",
+		"username": "CC:22:3D:E3:CE:30",
+		"port": 51826,
+		"pin": "123-45-568"
+	},
+
+	"accessories": [
+		{
+			"accessory": "SonoffBasicESPEasy",
+			"name": "Living Room Switch",
+			"ip": "192.168.1.205"
+		}
+	]
+}
