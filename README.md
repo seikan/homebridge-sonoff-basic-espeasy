@@ -96,7 +96,7 @@ This is Sonoff basic plugin for [Homebridge](https://github.com/nfarina/homebrid
 
 18. Go through the setup to connect Sonoff to your Wi-Fi network.
 
-19. **[Optional]** The design of ESPEasy web interface is really hurting my eyes. I have customized a style sheet [here](https://github.com/seikan/homebridge-sonoff-basic-espeasy/blob/master/esp.css). Go to  `Tools` > `Settings` > `Load`, upload the **esp.css** to change the interface.
+19. **[Optional]** The design of ESPEasy web interface is really hurting my eyes. I have customized a style sheet [here](https://github.com/seikan/homebridge-sonoff-basic-espeasy/blob/master/esp.css). Go to  `Tools` > `Settings` > `Load`, upload the **[esp.css](https://raw.githubusercontent.com/seikan/homebridge-sonoff-basic-espeasy/master/esp.css)** to change the interface.
 
 20. Now, go to `HARDWARE` section, select **GPIO-13 (D7)** for **Wifi Status Led** to enable the green LED light on Sonoff. Submit the changes.
 
