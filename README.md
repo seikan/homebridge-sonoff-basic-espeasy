@@ -161,10 +161,16 @@ This is Sonoff basic plugin for [Homebridge](https://github.com/nfarina/homebrid
        {
          "accessory": "SonoffBasicESPEasy",
          "name": "Living Room Switch",
+         "type": "switch",
          "ip": "IP_ADDRESS_OF_THE_SONOFF_BASIC"
        }
      ]
    ```
+
+   Type supported:
+
+   * switch
+   * outlet
 
    ​
 

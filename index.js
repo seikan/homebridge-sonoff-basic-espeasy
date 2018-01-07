@@ -11,12 +11,21 @@ module.exports = function(homebridge){
 function SonoffBasicESPEasy(log, config){
 	this.log = log;
 	this.name = config.name || 'Sonoff Switch';
+	this.type = config.type || 'switch';
 	this.ip = config.ip;
 
 	if(!this.ip)
 		throw new Error('Your must provide IP address of the switch.');
 
-	this.service = new Service.Switch(this.name);
+	switch(this.type){
+		case 'outlet':
+			this.service = new Service.Outlet(this.name);
+			break;
+
+		default:
+			this.service = new Service.Switch(this.name);
+			break;
+	}	
 
 	this.serviceInfo = new Service.AccessoryInformation();
 
