@@ -10,6 +10,8 @@ This is Sonoff basic plugin for [Homebridge](https://github.com/nfarina/homebrid
 
   You can now ask Siri to turn on / off any device!
 
+* Pulse to on / off the device after X seconds.
+
 
 
 
@@ -163,16 +165,29 @@ This is Sonoff basic plugin for [Homebridge](https://github.com/nfarina/homebrid
          "name": "Living Room Switch",
          "type": "switch",
          "ip": "IP_ADDRESS_OF_THE_SONOFF_BASIC"
+       },
+       {
+         "accessory": "SonoffBasicESPEasy",
+         "name": "Living Room Switch Pulse Off",
+         "type": "switch",
+         "ip": "IP_ADDRESS_OF_THE_SONOFF_BASIC",
+         "pulse" true,
+         "action": "off",
+         "duration": 60
        }
      ]
    ```
 
-   Type supported:
+   *Type* supported:
 
    * switch
    * outlet
 
-   ​
+   
+
+   *Pulse* is **false** by default . Set it **true** to use pulse, then set the *action* to on or off. *Duration* is counted in seconds.
+
+   
 
 3. Restart Homebridge, and your Sonoff basic a will be added to Home app.
 

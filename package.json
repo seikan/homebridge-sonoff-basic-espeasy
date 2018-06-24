@@ -1,6 +1,6 @@
 {
   "name": "homebridge-sonoff-basic-espeasy",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Sonoff basic plugin for Homebridge.",
   "license": "MIT",
   "keywords": [
